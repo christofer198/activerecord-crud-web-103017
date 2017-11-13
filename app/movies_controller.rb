@@ -24,11 +24,8 @@ end
 
 def can_be_created_in_a_block
   Movie.create do |m|
-    m.title = "The Matrix"
-    m.release_date = 1998
-    m.director = "The Wachowski Sisters"
-    m.lead = "Keanu Reeves"
-    m.in_theaters = false
+    m.title = "Home Alone"
+    m.release_date = 1990
   end
 end
 
